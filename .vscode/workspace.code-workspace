@@ -1,0 +1,10 @@
+{
+	"folders": [],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"ctype.h": "c",
+			"myheader.h": "c"
+		}
+	}
+}
