@@ -2,5 +2,9 @@
     "code-runner.executorMap": {
         "c": "cd $dir && gcc $fileName -o $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt && $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt && $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt",
+    },
+    "files.associations": {
+        "*.sass": "sass",
+        "float.h": "c"
     }
 }
