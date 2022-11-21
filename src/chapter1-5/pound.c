@@ -3,7 +3,7 @@ void pound(int n);
 int main(int argc, char const *argv[])
 {
     int num = 0;
-    printf("输入次数\n");
+    printf("the number of input\n");
     scanf("%d", &num);
     pound(num);
     return 0;

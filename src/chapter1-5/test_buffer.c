@@ -2,11 +2,10 @@
 
 int main(void)
 {
-    /* code */
-    printf("请输入一个数字 : ");
-    printf("请输入一个数字 : ");
-    printf("请输入一个数字 : ");
-    printf("请输入一个数字 : ");
-    printf("请输入一个数字 : ");
+    printf("please input a number : ");
+    printf("please input a number : ");
+    printf("please input a number : ");
+    printf("please input a number : ");
+    printf("please input a number : ");
     return 0;
 }

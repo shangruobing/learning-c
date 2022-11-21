@@ -9,7 +9,7 @@ void name(void);
 
 int main(void)
 {
-    printf("Hello, World! C语言 \n");
+    printf("Hello, World! C Language \n");
     years();
     name();
     return 0;

@@ -1,8 +1,6 @@
 {
-    "cSpell.words": [
-        "Lstbox",
-        "winfo",
-        "yscrollcommand",
-        "yview"
-    ]
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt && $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt && $dirWithoutTrailingSlash\\build\\$fileNameWithoutExt",
+    }
 }

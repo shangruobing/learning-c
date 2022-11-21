@@ -1,8 +1,8 @@
 #include <stdio.h>
 void usingFun(void);
+
 int main(void)
 {
-    /* code */
     int feet = 3;
     int mile;
     mile = feet * 3;
@@ -13,5 +13,5 @@ int main(void)
 
 void usingFun(void)
 {
-    printf("使用了一函数\n");
+    printf("Using the function: usingFun \n");
 }

@@ -4,7 +4,6 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
     char array[30];
     char string;
     printf("input chars\n");

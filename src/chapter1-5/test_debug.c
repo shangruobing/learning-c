@@ -2,7 +2,6 @@
 
 int main(void)
 {
-    /* code */
     int num = 8;
     int power = 0;
     int cube = 0;
