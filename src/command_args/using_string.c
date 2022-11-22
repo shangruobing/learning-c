@@ -3,9 +3,9 @@
 int main(int argc, char const *argv[])
 {
     char name[5];
-    printf("输入你的姓名");
+    printf("please input your name");
     gets(name);
-    // printf("你输入的姓名:%s",name);
+    // printf("Your name:%s",name);
     puts(name);
     return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define NAME "若冰"
+#define NAME "Ruobing Shang"
 #define AGE 20
 #define PHONE "13577070376"
 

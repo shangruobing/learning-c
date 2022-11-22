@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    printf("float 存储最大字节数 : %lu \n", sizeof(float));
-    printf("float 最小值: %E\n", FLT_MIN);
-    printf("float 最大值: %E\n", FLT_MAX);
-    printf("精度值: %d\n", FLT_DIG);
+    printf("float stores the maximum number of bytes : %lu \n", sizeof(float));
+    printf("float minimum value: %E\n", FLT_MIN);
+    printf("float maximum value: %E\n", FLT_MAX);
+    printf("float precision: %d\n", FLT_DIG);
 
     return 0;
 }

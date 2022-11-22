@@ -1,8 +1,10 @@
 #include <stdio.h>
-//利用预编译指令指定姓名
+
+// use precompilation directive
+
 #define NAME "ruobing"
 
-//函数声明
+// function declaration
 void years(void);
 
 void name(void);
@@ -15,7 +17,7 @@ int main(void)
     return 0;
 }
 
-/*函数实现*/
+/* function implement */
 void years(void)
 {
     int weeks;

@@ -8,10 +8,10 @@ int main(int argc, char const *argv[])
         goto gotoLabel;
     }
     else
-        printf("正常执行流程");
+        printf("Execute process normally.");
 
 gotoLabel:
-    printf("进入了goto 语句");
+    printf("Execute goto statement.");
 
     return 0;
 }

@@ -6,7 +6,8 @@ int main(void)
 {
     int x = 3;
     int y = 9;
-    //只交换值 不交换地址
+
+    // only exchange value, not exchange address.
     printf("%d  %d   %p   %p\n", x, y, &x, &y);
     interchange(&x, &y);
     printf("%d  %d   %p   %p\n", x, y, &x, &y);
@@ -18,7 +19,7 @@ void interchange(int *a, int *b)
 {
 
     int temp;
-    //互换地址上的值
+    // exchange value on address.
     temp = *a;
     *a = *b;
     *b = temp;

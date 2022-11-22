@@ -3,12 +3,12 @@
 int main(int argc, char const *argv[])
 {
     int array[SIZE];
-    printf("输入10个数字\n");
+    printf("please input ten numbers...\n");
     for (int i = 0; i < SIZE; i++)
     {
         scanf("%d", &array[i]);
     }
-    printf("刚刚输入的数字为：");
+    printf("just input numbers:");
 
     for (int i = 0; i < SIZE; i++)
     {
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     {
         count += array[i];
     }
-    printf("\n这些数字的和为：%d", count);
+    printf("\n The sum of these numbers: %d", count);
 
     return 0;
 }

@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     int count = 1;
     while (count <= 64)
     {
-        printf("%-4d  指数 %.2e\n", count, num);
+        printf("%-4d  index %.2e\n", count, num);
         num = num * 2.0;
         count++;
     }
